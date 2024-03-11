@@ -24,9 +24,9 @@ public void url() {
 public void test() throws InterruptedException {
 	 Elements obj= new Elements(d);
 	 obj.Logo();
-	 //obj.Register("aswin1999", "aswin@1999");
-	 //obj.Login("aswin123", "aswin@123");
-	 //obj.Purchase("shoes");
+	 obj.Register("aswin1999", "aswin@1999");
+	 obj.Login("aswin123", "aswin@123");
+	 obj.Purchase("shoes");
 	
 }
 }
